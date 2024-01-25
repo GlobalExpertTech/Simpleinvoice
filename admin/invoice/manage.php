@@ -13,7 +13,6 @@ if(isset($_GET['id']) && $_GET['id'] > 0){
         }
     }
 }
-<?php echo "hello";?>
 $tax_rate = isset($tax_rate) ? $tax_rate : $_settings->info('tax_rate');
 $item_arr = array();
 if(isset($id)){
